@@ -60,9 +60,10 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(x === y){
+  if( x === y){
     return true;
-  }else{
+  }
+  else{
     return false;
   }
 }
@@ -71,33 +72,32 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(str1.length === str2.length){
-    return true;
-  }else{
-    return false;
-  }
+ if( str1.length === str2.length){
+   return true;
+ }
+ return false;
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+  
   if(num < 90){
     return true;
-  }else{
-    return false;
   }
+  return false;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+  
   if(num > 50){
     return true;
-  }else{
-    return false;
   }
+  return false;
 }
 
 function obtenerResto(x, y) {
@@ -110,22 +110,21 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 === 0){
-    return true;
-  }else{
-    return false;
-  }
+if( num % 2 === 0){
+  return true;
+}
+return false;
+
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num % 2 === 1){
-    return true;
-  }else{
-    return false;
-  }
+ if( num % 2 === 1){
+   return true;
+ }
+ return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -170,17 +169,17 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero === 0) {
-    return false;
-}
-else if (numero > 0) {
-  return "Es positivo";
-  
-}
-else{
-  return "Es negativo";
-}
-}
+ if(numero === 0){
+   return false
+ }else{
+   if(numero > 1){
+     return "Es positivo";
+   }
+   else(numero < 1)
+     return "Es negativo";
+   }
+  }
+
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
