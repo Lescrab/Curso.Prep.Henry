@@ -10,18 +10,17 @@ function deObjetoAmatriz(objeto){
       C: 3
     }) ➞ [["D", 1], ["B", 2], ["C", 3]]*/
   //Escribe tu código aquí
-  var nuevoArray = []
+  var suma = 0
 
   var key = Object.keys(objeto);
   var value = Object.values(objeto);
   
   for(var i = 0; i < key.length; i++){
     for(var j = 0; j < value.length; j++){
-      nuevoArray.push([key[i], value[j]])
-      i++
+      suma = key[i] + value[j];
     }
   }
-  return nuevoArray;
+  return suma;
   }
 
 

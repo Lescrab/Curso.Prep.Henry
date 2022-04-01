@@ -1,16 +1,48 @@
 <html>
     <head>
         <title>Tarea HTML de Federico</title>
+        <style>
+              h1 {
+                 color:red;
+               }
+              img {
+                 width: 400px;
+              } 
+              #thirdDiv {
+                 height: 600px;
+                 width: 500px;
+                 background-color: royalblue;
+                 padding: 50px;
+                 border: 10px solid gray;
+              }
+              #spanId {
+                 font-size: 18px;
+                 margin: 50px;
+              }
+        </style>
         <body>
-            <div>
+            <div class="divClass">
             <h1>Federico Iglesias</h1>
             <h3>Henry</h3>
-            <h4>Tarea de HTML / CSS</h4>
+            <h4>Tarea de HTML/CSS</h4>
             </div>
-            <div>
-                <span>
-                    <span style="color : red">Ñoquis</span>
-                    <a>href="https://www.facebook.com/hnos.deltoro.longchamps/" Donde comer Ñoquis</a>
+            <div class="divClass">
+                    <span id="spanId">Mi comida favorita son los ñoquis.</span>
+                    <a href="https://www.facebook.com/hnos.deltoro.longchamps/">Unos ñoquis buenardos</a>
+            </div>
+            <div id="thirdDiv">
+                  <ul>
+                      <li>
+                          <span>
+                          Ñoquis filetto.
+                          <img src="https://i2.wp.com/alimentoscanale.com.ar/wp-content/uploads/2021/06/noquis-salsa-fileto.jpg?w=631&ssl=1"/>
+                      </li>
+                      <li>
+                          <span>
+                          Ñoquis Carbonara.
+                          <img src="https://img.cocinarico.es/2020-02/noquis-a-la-carbonara-1.jpg"/>    
+                      </li>
+                  </ul>        
             </div>
         </body>
     </head>
