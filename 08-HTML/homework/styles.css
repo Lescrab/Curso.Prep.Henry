@@ -1,17 +1,30 @@
+
+body {
+   background-image:url(https://cdn.elcocinerocasero.com/imagen/receta/1000/2016-05-26-18-07-22/noquis-con-salsa-bolonesa.jpeg);
+}
 h1 {
-    color:red;
-  }
+   color:red;
+   text-align: center;
+ }
+h3 {
+   text-align: center;    
+ }
+h4 {
+   text-align: center;
+} 
  img {
     width: 400px;
  } 
  #thirdDiv {
     height: 600px;
-    width: 500px;
+    max-width: 500px;
     background-color: royalblue;
     padding: 50px;
     border: 10px solid gray;
+    margin: 0 auto;
  }
  #spanId {
     font-size: 18px;
     margin: 50px;
+    margin-left: 41%;
  }

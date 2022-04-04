@@ -1,0 +1,30 @@
+
+body{
+    background-color: darkslategrey;
+}
+img{
+    float: left;
+    max-width: 300px;
+    border: 5px solid black;
+}
+h1{
+    max-height: 100px;
+    background-color: violet;
+    border: 5px solid gray;
+}
+h2{
+    background-color: red;
+    border: 5px solid gray;
+}
+h3{
+    background-color: brown;
+    border: 5px solid gray;
+}
+h4{
+    background-color: darkgreen;
+    border: 5px solid gray;
+}
+h5{
+    background-color: aquamarine;
+    border: 5px solid gray;
+}
